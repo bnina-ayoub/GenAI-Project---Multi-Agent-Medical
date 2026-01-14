@@ -1,0 +1,10 @@
+# Clinical Assistant Requirements
+
+
+python-dotenv
+langchain
+langchain_community
+langchain_ollama
+openai
+anthropic
+# Add any other dependencies your project uses below
