@@ -1,7 +1,22 @@
+
 # Multi-Agent Clinical Assistant
 
-<img width="1500" height="615" alt="image" src="https://github.com/user-attachments/assets/2057d871-09fc-4e78-b5f7-caf17789e96f" />
+<img width="1500" height="615" alt="Multi-Agent Clinical Assistant" src="https://github.com/user-attachments/assets/2057d871-09fc-4e78-b5f7-caf17789e96f" />
 
+## Overview
+
+Multi-Agent Clinical Assistant is an advanced AI-powered platform designed to assist healthcare professionals and researchers with clinical reasoning, symptom analysis, information retrieval, and workflow automation. It leverages multiple collaborating AI agents to provide robust, explainable, and context-aware support for medical tasks.
+
+This project is a significant extension and customization of the original [`ai-launchpad`](https://github.com/kenneth-liao/ai-launchpad) repository, adapted for medical use cases and multi-agent orchestration.
+
+## Features
+
+- Multi-agent collaboration for complex clinical tasks
+- Symptom-to-disease reasoning and validation
+- Retrieval-augmented generation for medical knowledge
+- Integration with external APIs (OpenAI, Tavily, Anthropic, etc.)
+- Modular and extensible agent architecture
+- Interactive development with Jupyter and ipykernel
 
 ## Requirements
 
@@ -15,19 +30,36 @@
 
 ## Getting Started
 
-1. **Install UV to Manage Python Projects**
-
-    [UV](https://docs.astral.sh/uv/) is a python project manager that replaces pip, poetry, pyenv, and more. It's 10-100x faster than pip and I recommend using it for all of your python projects.
-
-    For MacOS it's easiest to install with homebrew:
-
+1. **Clone the Repository**
     ```bash
-    brew install uv
-    # GenAI Multi-Agent Medical Project
+    git clone https://github.com/bnina-ayoub/GenAI-Project---Multi-Agent-Medical.git
+    cd clinical-assistant
     ```
-    This project is a clinical assistant powered by multiple AI agents, designed to support medical tasks such as symptom analysis, information retrieval, and workflow automation.
 
-    The codebase is adapted and extended from the original [`ai-launchpad`](https://github.com/kenneth-liao/ai-launchpad) repository, with customizations for medical use cases and multi-agent orchestration.
+2. **Create a Virtual Environment and Install Dependencies**
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+3. **Set Up Environment Variables**
+    - Copy `.env.example` to `.env` and add your API keys:
+        - `OPENAI_API_KEY` (required)
+        - `TAVILY_API_KEY` (required)
+        - `LANGSMITH_API_KEY` (optional)
+
+4. **Run the Application or Notebooks**
+    - Explore the `clinical_assistant/` and `scripts/` directories for agent demos and evaluation scripts.
+    - Use Jupyter or VS Code interactive mode for step-by-step exploration.
+
+## Attribution
+
+This project is based on and extends the excellent work in [`ai-launchpad`](https://github.com/kenneth-liao/ai-launchpad) by Kenneth Liao.
+
+---
+
+For more details, see the module READMEs and code comments.
     For MacOS and Linux you can also run the following curl command:
     ---
 
