@@ -32,7 +32,7 @@ This project is a significant extension and customization of the original [`ai-l
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/bnina-ayoub/GenAI-Project---Multi-Agent-Medical.git
+    git clone https://github.com/bnina-ayoub/Multi-Agent-Clinical-Assistant.git
     cd clinical-assistant
     ```
 
@@ -135,5 +135,6 @@ At some point I'll also be migrating past projects from my Youtube channel to th
 
 1. [Agent From Scratch (agents_module/agent_from_scratch)](clinical_assistant/agents_module/agent_from_scratch/README.md)
 2. [Agent With MCP (agents_module/agent_with_mcp)](clinical_assistant/agents_module/agent_with_mcp/README.md)
+
 
 
