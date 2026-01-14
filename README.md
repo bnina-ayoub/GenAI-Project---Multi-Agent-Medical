@@ -1,4 +1,4 @@
-# Clinical Assistant
+# Multi-Agent Clinical Assistant
 
 <img width="1500" height="615" alt="image" src="https://github.com/user-attachments/assets/2057d871-09fc-4e78-b5f7-caf17789e96f" />
 
